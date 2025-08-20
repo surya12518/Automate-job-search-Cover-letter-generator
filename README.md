@@ -38,6 +38,7 @@ The solution is designed to run both **locally** and within **n8n** for automati
   -p 5678:5678 \
   -v ~/.n8n:/home/node/.n8n \
   n8nio/n8n
+
 2. Import the workflow JSON file from this repository into n8n.
 3. Add your SerpAPI key, Gemini API key, and Google Sheets credentials into the credentials section.
 4. Run the workflow to fetch jobs, rate matches, and generate cover letters automatically.
