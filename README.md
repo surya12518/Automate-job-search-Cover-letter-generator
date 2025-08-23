@@ -3,13 +3,13 @@
 
 ## 📌 Project Description
 This project is a fully automated pipeline for extracting job postings, matching them with candidate resumes, and generating personalized cover letters.  
-It leverages **SerpAPI** for fetching jobs, **Google Gemini LLMs** for parsing and structuring job data, and custom models for **scoring job fit** and **cover letter generation**.  
+It leverages **RSS feed of Linkedin** for fetching jobs, **Google Gemini LLMs** for parsing and structuring job data, and custom models for **scoring job fit** and **cover letter generation**.  
 The solution is designed to run both **locally** and within **n8n** for automation and workflow integration.
 
 ---
 
 ## ✨ Features
-- **Job Fetching**: Extract jobs from Google Jobs using SerpAPI.  
+- **Job Fetching**: Extract jobs from linkedin  using RSS.  
 - **Job Match Scoring**: Rate how closely a candidate’s resume matches a job listing based on skills, role, and requirements.  
 - **Cover Letter Generation**: Automatically generate personalized cover letters tailored to each job posting.  
 - **Google Sheets Integration**: Store and manage fetched jobs, scores, and cover letters directly in Google Sheets for easy access and tracking.  
